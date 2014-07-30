@@ -1,0 +1,55 @@
+body {margin:0; padding:0;}
+
+.content
+	{margin-left: 10%; margin-right: 10%;}
+p
+  	{text-align: justify;}
+blockquote
+  	{text-align: justify;}
+h1,h2,h3,h4,h5,h6
+  	{text-align: center;}
+.cap
+	{text-align: justify; font-size: 90%; margin-left: 10%; margin-right: 10%;}
+.dp
+	{text-align: justify; font-size: 80%; margin-left: 30%; margin-right: 30%; font-weight: bold;}
+
+hr
+  	{text-align: center; width: 50%;}
+html>body hr
+  	{margin-right: 25%; margin-left: 25%; width: 50%;}
+hr.full
+  	{width: 100%;}
+hr.half
+	{width: 50%;}
+html>body hr.full
+  	{margin-right: 0%; margin-left: 0%; width: 100%;}
+
+img
+  	{border: none;}
+.footnote
+  	{margin-left: 10%; margin-right: 10%;
+  	font-size: 0.9em;}
+.figure
+  	{text-align: center; font-size: 0.7em;}
+.right
+	{float: right; margin-left: 5%; margin-right: 0;}
+.left
+	{float: left; margin-left: 0; margin-right: 5%;}
+
+.list
+	{margin-left: 10%; margin-right: 10%;}
+.rom
+	{list-style-type: upper-roman;}
+	
+.poem             
+	{margin-left:10%; margin-right:10%; text-align: left;}
+.poem .stanza     
+	{margin: 1em 0em 1em 0em;}
+.poem p           
+	{margin: 0; padding-left: 3em; text-indent: -3em;}
+.poem p.i2        
+	{margin-left: 2em;}
+.poem p.i4        
+	{margin-left: 4em;}
+.poem .caesura    
+	{vertical-align: -200%;}
